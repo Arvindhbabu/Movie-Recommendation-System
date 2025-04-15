@@ -3,7 +3,6 @@ import pickle
 import pandas as pd
 import requests
 
-# Load movie data and similarity matrix
 movies = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
